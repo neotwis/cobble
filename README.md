@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/neotwis/cobble/main/media/logo.png" alt="Cobble Logo" width="120" />
+<img src="https://raw.githubusercontent.com/neotwis/cobble/main/media/logocobble.png" alt="Cobble Logo" width="120" />
 
 <h1>Cobble</h1>
 
@@ -16,6 +16,15 @@ A clean and customizable browser extension designed to make your everyday browsi
 [![GitHub Stars](https://img.shields.io/github/stars/neotwis/cobble?style=for-the-badge&color=2E8B57)](https://github.com/neotwis/cobble/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/neotwis/cobble?style=for-the-badge&color=2E8B57)](https://github.com/neotwis/cobble/forks)
 [![License](https://img.shields.io/badge/License-MIT-2E8B57?style=for-the-badge)](./LICENSE)
+
+<br />
+
+<a href="https://microsoftedge.microsoft.com/addons/detail/cobble/lgflemjobmkkklccegfggpejiojolmpe">
+  <img src="https://img.shields.io/badge/Download-Microsoft%20Edge-2E8B57?style=for-the-badge&logo=microsoftedge&logoColor=white" alt="Get Cobble for Microsoft Edge" />
+</a>
+<a href="https://addons.mozilla.org/vi/firefox/addon/cobble/">
+  <img src="https://img.shields.io/badge/Download-Mozilla%20Firefox-FF7139?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Get Cobble for Firefox" />
+</a>
 
 <br />
 
