@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Cobble</title>
+  <link rel="stylesheet" href="css/cobble.css" />
+</head>
+<body class="popup">
+  <div class="wrap" id="app">
+    <div class="row">
+      <h1 class="grow"><img src="icons/icon32.png" alt="" />Cobble</h1>
+      <button class="btn ghost" type="button" id="openSettings">Settings</button>
+    </div>
+    <button class="btn primary" type="button" id="openDash">Open dashboard</button>
+    <button class="btn" type="button" id="addTab">Add this tab to links</button>
+    <section class="card" aria-labelledby="qnTitle">
+      <form id="qn" style="display:flex;flex-direction:column;gap:8px">
+        <label id="qnTitle" for="qnBody" style="font-size:.8em;color:var(--muted)">Quick note</label>
+        <textarea id="qnBody" class="input"></textarea>
+        <div class="row"><span class="muted grow" id="qnStatus" role="status"></span><button class="btn primary" type="submit" id="qnSave">Save</button></div>
+      </form>
+    </section>
+    <section class="card" aria-label="Focus" id="timerCard"></section>
+  </div>
+  <script src="js/core.js"></script>
+  <script src="js/popup.js"></script>
+</body>
+</html>

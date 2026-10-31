@@ -1,0 +1,26 @@
+/* Real, attributed public-domain quotes bundled locally (no network). */
+window.COBBLE_QUOTES = [
+  ["The journey of a thousand miles begins with one step.", "Lao Tzu"],
+  ["Well begun is half done.", "Aristotle"],
+  ["It does not matter how slowly you go as long as you do not stop.", "Confucius"],
+  ["Simplicity is the ultimate sophistication.", "Clare Boothe Luce (attrib.)"],
+  ["Nature does not hurry, yet everything is accomplished.", "Lao Tzu"],
+  ["Water dripping day by day wears hard rocks away.", "Ovid"],
+  ["We are what we repeatedly do.", "Will Durant, on Aristotle"],
+  ["Little by little, one travels far.", "J. R. R. Tolkien"],
+  ["The secret of getting ahead is getting started.", "Mark Twain (attrib.)"],
+  ["Do what you can, with what you have, where you are.", "Theodore Roosevelt"],
+  ["Not all those who wander are lost.", "J. R. R. Tolkien"],
+  ["Waste no more time arguing what a good man should be. Be one.", "Marcus Aurelius"],
+  ["The best way out is always through.", "Robert Frost"],
+  ["In the middle of difficulty lies opportunity.", "Albert Einstein (attrib.)"],
+  ["He who has a why to live can bear almost any how.", "Friedrich Nietzsche"],
+  ["What we think, we become.", "Buddha (attrib.)"],
+  ["Act as if what you do makes a difference. It does.", "William James"],
+  ["The obstacle is the way.", "after Marcus Aurelius"],
+  ["Rivers know this: there is no hurry. We shall get there some day.", "A. A. Milne"],
+  ["A smooth sea never made a skilled sailor.", "English proverb"],
+  ["Có công mài sắt, có ngày nên kim.", "Tục ngữ Việt Nam"],
+  ["Đi một ngày đàng, học một sàng khôn.", "Tục ngữ Việt Nam"],
+  ["Kiến tha lâu cũng đầy tổ.", "Tục ngữ Việt Nam"]
+];

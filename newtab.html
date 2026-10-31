@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>New Tab · Cobble</title>
+  <link rel="icon" href="icons/icon32.png" />
+  <link rel="stylesheet" href="css/cobble.css" />
+</head>
+<body>
+  <div id="bg" aria-hidden="true"></div>
+  <div id="overlay" aria-hidden="true"></div>
+  <main class="shell" id="app">
+    <header class="top">
+      <div class="brand"><img src="icons/icon32.png" alt="" />Cobble</div>
+      <div class="row">
+        <button class="btn ghost" id="customize" type="button">Customize</button>
+        <a class="btn ghost" href="options.html" id="settingsLink">Settings</a>
+      </div>
+    </header>
+    <section class="hero" id="hero" aria-label="Clock">
+      <p class="greet" id="greet"></p>
+      <p class="time" id="time"></p>
+      <p class="date" id="date"></p>
+    </section>
+    <form class="search" id="search" role="search">
+      <label class="sr" for="q">Search</label>
+      <input id="q" name="q" autocomplete="off" />
+      <label class="sr" for="engine">Search engine</label>
+      <select id="engine"></select>
+    </form>
+    <div class="grid" id="grid"></div>
+  </main>
+  <dialog id="dlg"></dialog>
+  <script src="js/core.js"></script>
+  <script src="js/quotes.js"></script>
+  <script src="js/widgets.js"></script>
+  <script src="js/newtab.js"></script>
+</body>
+</html>
