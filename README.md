@@ -1,157 +1,113 @@
 # Cobble
 
-<div align="center">
+A simpler, more personal browsing experience.
 
-<img src="https://raw.githubusercontent.com/neotwis/cobble/main/media/logocobble.png" alt="Cobble Logo" width="120" />
+[![Version](https://img.shields.io/badge/version-1.0.0-2E8B57?style=flat-square)](https://github.com/neotwis/cobble)
+[![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 
-<h1>Cobble</h1>
+## Download
 
-**A simpler, more personal browsing experience.**
+<p align="left">
+  <a href="https://microsoftedge.microsoft.com/addons/detail/cobble/lgflemjobmkkklccegfggpejiojolmpe">
+    <img src="https://img.shields.io/badge/Download-Microsoft%20Edge-2E8B57?style=for-the-badge&logo=microsoftedge&logoColor=white" alt="Get Cobble for Microsoft Edge" />
+  </a>
+  <a href="https://addons.mozilla.org/vi/firefox/addon/cobble/">
+    <img src="https://img.shields.io/badge/Download-Mozilla%20Firefox-FF7139?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Get Cobble for Firefox" />
+  </a>
+</p>
 
-A clean and customizable browser extension designed to make your everyday browsing simpler and more personal.
-
-<br />
-
-[![Version](https://img.shields.io/badge/Version-1.0.0-2E8B57?style=for-the-badge)](https://github.com/neotwis/cobble)
-[![GitHub Stars](https://img.shields.io/github/stars/neotwis/cobble?style=for-the-badge&color=2E8B57)](https://github.com/neotwis/cobble/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/neotwis/cobble?style=for-the-badge&color=2E8B57)](https://github.com/neotwis/cobble/forks)
-[![License](https://img.shields.io/badge/License-MIT-2E8B57?style=for-the-badge)](./LICENSE)
-
-<br />
-
-<a href="https://microsoftedge.microsoft.com/addons/detail/cobble/lgflemjobmkkklccegfggpejiojolmpe">
-  <img src="https://img.shields.io/badge/Download-Microsoft%20Edge-2E8B57?style=for-the-badge&logo=microsoftedge&logoColor=white" alt="Get Cobble for Microsoft Edge" />
-</a>
-<a href="https://addons.mozilla.org/vi/firefox/addon/cobble/">
-  <img src="https://img.shields.io/badge/Download-Mozilla%20Firefox-FF7139?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Get Cobble for Firefox" />
-</a>
-
-<br />
-
-<a href="#features">
-  <img src="https://img.shields.io/badge/Explore-Features-2E8B57?style=for-the-badge" alt="Explore Features" />
-</a>
-<a href="#installation">
-  <img src="https://img.shields.io/badge/Get-Started-333333?style=for-the-badge" alt="Get Started" />
-</a>
-<a href="https://github.com/neotwis/cobble">
-  <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository" />
-</a>
-
-</div>
-
----
+**Google Chrome:** Follow the manual installation guide below.
 
 ## Preview
 
-<div align="center">
+![Cobble Dashboard](media/trangchu.png)
 
-### Home
-
-<img src="https://raw.githubusercontent.com/neotwis/cobble/main/media/trangchu.png" alt="Cobble Homepage" width="95%" />
-
-### Settings
-
-<img src="https://raw.githubusercontent.com/neotwis/cobble/main/media/settings.png" alt="Cobble Settings" width="95%" />
-
-</div>
-
----
+![Cobble Settings](media/settings.png)
 
 ## Features
 
-- **Personalized Dashboard** — Customize your browsing homepage.
-- **Quick Links** — Access your favorite websites quickly.
-- **Bookmarks** — Keep frequently visited pages organized.
-- **Notes** — Write down ideas and important information.
-- **Pomodoro Timer** — Stay focused and manage your time.
-- **Customization** — Personalize themes, colors, wallpapers, and layouts.
-- **Language Support** — English and Vietnamese.
-- **Local Storage** — Keep your personal settings and data saved locally.
+- Personalized browsing dashboard
+- Quick links to your favorite websites
+- Bookmark management
+- Built-in notes
+- Pomodoro timer
+- Custom themes, colors and wallpapers
+- Multiple layouts
+- English and Vietnamese language support
+- Local data storage
 
 ## Supported Browsers
 
 | Browser | Support |
-|:---|:---:|
-| Google Chrome | ✅ |
-| Microsoft Edge | ✅ |
-| Brave | ✅ |
-| Mozilla Firefox | ✅ |
-
-## Tech Stack
-
-<div align="center">
-
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vite.dev/)
-[![WebExtensions](https://img.shields.io/badge/WebExtensions-2E8B57?style=for-the-badge)](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions)
-
-</div>
+|---|---|
+| Google Chrome | Manual installation |
+| Microsoft Edge | Available |
+| Mozilla Firefox | Available |
+| Brave | Compatible |
 
 ## Installation
 
-### 1. Clone the repository
+### Google Chrome
+
+1. Download the [Cobble ZIP file](https://github.com/neotwis/cobble/archive/refs/heads/main.zip).
+2. Open your Downloads folder and locate `cobble.zip`.
+3. Extract the ZIP file.
+4. Open Chrome and visit `chrome://extensions/`.
+5. Enable **Developer mode** in the top-right corner.
+6. Click **Load unpacked**.
+7. Select the extracted `cobble` folder containing `manifest.json`.
+
+Cobble will now appear in your Chrome extensions.
+
+### Microsoft Edge
+
+1. Visit the [Microsoft Edge Add-ons Store](https://microsoftedge.microsoft.com/addons/detail/cobble/lgflemjobmkkklccegfggpejiojolmpe).
+2. Click **Get** to install Cobble.
+
+### Mozilla Firefox
+
+1. Visit the [Firefox Add-ons Store](https://addons.mozilla.org/vi/firefox/addon/cobble/).
+2. Click **Add to Firefox**.
+
+## Tech Stack
+
+- WebExtensions API
+
+## Development
+
+Clone the repository:
 
 ```bash
 git clone https://github.com/neotwis/cobble.git
 cd cobble
 ```
 
-### 2. Install dependencies
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-### 3. Start development
+Start the development server:
 
 ```bash
 npm run dev
 ```
 
-### 4. Build the extension
+Build the extension:
 
 ```bash
 npm run build
 ```
 
-After building, load the generated extension folder through your browser's extension management page.
-
-## Development
-
-Contributions, suggestions, and bug reports are welcome.
-
-1. Fork this repository.
-2. Create a new branch.
-3. Make your changes.
-4. Commit and push your changes.
-5. Open a Pull Request.
-
 ## Privacy
 
-Cobble is designed with user privacy in mind. Personal settings and data are stored locally whenever possible.
+Cobble is designed with privacy in mind. Personal settings and data are stored locally whenever possible.
 
 ## Developer
 
-<div align="center">
-
-**Created by [neotwis](https://github.com/neotwis)**
-
-[![GitHub](https://img.shields.io/badge/Follow-@neotwis-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/neotwis)
-
-</div>
+Developed by **[neotwis](https://github.com/neotwis)**.
 
 ## License
 
-This project is licensed under the terms of the [MIT License](./LICENSE).
-
----
-
-<div align="center">
-
-**Cobble — A simpler way to browse.**
-
-Made with care by neotwis.
-
-</div>
+This project is licensed under the [MIT License](LICENSE).
