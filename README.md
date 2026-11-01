@@ -131,9 +131,9 @@ It brings useful tools and customization options together in one place, helping 
 
 You can install Cobble manually using the ZIP package.
 
-1. [Download Cobble ZIP](https://github.com/neotwis/cobble/archive/refs/heads/main.zip).
+1. [Download Cobble ZIP](https://github.com/neotwis/cobble/raw/main/download/cobble.zip).
 2. Open your Downloads folder and locate `cobble.zip`.
-3. Extract the ZIP file.
+3. Extract the ZIP file into a folder named `cobble`.
 4. Open Chrome and navigate to `chrome://extensions/`.
 5. Enable **Developer mode** in the top-right corner.
 6. Click **Load unpacked**.
@@ -149,7 +149,7 @@ You can install Cobble manually using the ZIP package.
 2. Click **Get**.
 3. Confirm the installation.
 
-<a href="https://microsoftedge.microsoft.com/addons/detail/cobble/lgflemjobmkkklccegfggpe">
+<a href="https://microsoftedge.microsoft.com/addons/detail/cobble/lgflemjobmkkklccegfggpejiojolmpe">
   <img src="https://img.shields.io/badge/Get%20Cobble-Microsoft%20Edge-2E8B57?style=for-the-badge&logo=microsoftedge&logoColor=white" alt="Get Cobble for Edge" />
 </a>
 
@@ -169,23 +169,19 @@ You can install Cobble manually using the ZIP package.
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=react,typescript,vite" alt="React, TypeScript, Vite" />
+<img src="https://skillicons.dev/icons?i=html,css,js" alt="HTML, CSS, JavaScript" />
 
 <br />
 
-<img src="https://img.shields.io/badge/WebExtensions-API-2E8B57?style=for-the-badge" alt="WebExtensions API" />
+<img src="https://img.shields.io/badge/WebExtensions-Manifest%20V3-2E8B57?style=for-the-badge" alt="WebExtensions Manifest V3" />
 
 </div>
+
+Cobble is plain HTML, CSS and JavaScript with no build step and no dependencies. All data stays in `storage.local` (and IndexedDB for an uploaded wallpaper).
 
 ---
 
 ## Development
-
-### Requirements
-
-- Node.js
-- npm
-- Git
 
 ### 1. Clone the repository
 
@@ -194,25 +190,31 @@ git clone https://github.com/neotwis/cobble.git
 cd cobble
 ```
 
-### 2. Install dependencies
+### 2. Load it in your browser
 
-```bash
-npm install
+- **Chrome / Edge / Brave:** open `chrome://extensions`, enable **Developer mode**, click **Load unpacked** and select the repository folder.
+- **Firefox:** open `about:debugging#/runtime/this-firefox`, click **Load Temporary Add-on…** and pick `manifest.firefox.json` (or copy it over `manifest.json` first).
+
+Edit any file, then press the reload button on the extension card to see changes.
+
+### 3. Package
+
+Zip the contents of the folder (excluding `media/`, `download/`, `README.md` and `PRIVACY.md`). For Firefox, use `manifest.firefox.json` as `manifest.json` inside the zip.
+
+### Project structure
+
 ```
-
-### 3. Start development
-
-```bash
-npm run dev
+manifest.json           Chrome / Edge / Brave manifest
+manifest.firefox.json   Firefox manifest
+newtab.html             New tab dashboard
+popup.html              Toolbar popup (quick note, add current tab)
+options.html            Settings page
+background.js           Focus timer alarms and notifications
+js/core.js              Storage, translations, themes, shared helpers
+js/widgets.js           Dashboard widgets
+js/quotes.js            Daily quotes
+css/cobble.css          Styles
 ```
-
-### 4. Build the extension
-
-```bash
-npm run build
-```
-
-After building, load the generated extension folder through your browser's extension management page.
 
 ---
 
@@ -264,7 +266,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/neotwis/cobble/main/media/logo128.png" alt="Cobble" width="64" />
+<img src="https://raw.githubusercontent.com/neotwis/cobble/main/media/logocobble.png" alt="Cobble" width="64" />
 
 ### Cobble — A simpler way to browse.
 
